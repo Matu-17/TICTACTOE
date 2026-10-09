@@ -1,0 +1,42 @@
+# ==========================================
+# GitIgnore para Proyecto Tres en Raya (IA)
+# ==========================================
+
+# Byte-compiled / archivos cacheados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales locales
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Datos e imágenes generados automáticamente por la IA
+# Se preserva la carpeta data mediante .gitkeep
+data/*.csv
+data/*.png
+!data/.gitkeep
+
+# Configuraciones locales de IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pruebas y caché
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y temporales
+*.log
+scratch/

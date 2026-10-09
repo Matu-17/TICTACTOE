@@ -102,7 +102,7 @@ class GameModel:
 
         # Si la partida continúa, alternar turno
         if self._state == GameState.PLAYING:
-            self._current_player = self.PLAYER_O if self._current_player == self.PLAYER_X else self.PLAYER_X
+            self._current_player = self.PLAYER_O if move_player == self.PLAYER_X else self.PLAYER_X
 
         return True
 
